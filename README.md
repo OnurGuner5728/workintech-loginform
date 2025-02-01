@@ -1,8 +1,29 @@
-# React + Vite
+# Login Form E2E Test Projesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, modern bir login formunun end-to-end testlerini içeren bir React uygulamasıdır.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React + Vite tabanlı modern uygulama
+- Formik ve Yup ile form validasyonu
+- Cypress ile E2E testler
+- Emotion ile stil yönetimi
+
+## Kurulum
+
+```bash
+npm install
+npm run dev
+```
+
+## Testleri Çalıştırma
+
+```bash
+npm run cypress:open
+```
+
+## Validasyonlar
+
+- Email: Geçerli email formatı
+- Şifre: En az 8 karakter, bir harf, bir rakam ve bir özel karakter
+- Şartlar: Kabul edilmesi zorunlu
